@@ -1,0 +1,275 @@
+@charset "UTF-8";
+
+body {
+	background-image: url("images/gradient_small.png");
+	background-size: cover;
+}
+
+header {
+	width: 1350px;
+	height: 500px;
+	margin: auto;
+}
+
+header h1 {
+	padding-top: 185px;
+	font-family: apparat-light,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 60pt;
+	color: white;
+}
+
+.navbar a:link {
+    text-decoration: none;
+    padding: 10px;
+    color: #D7D7D7;	
+}
+.navbar a:visited {
+	text-decoration: none;
+	color: #D7D7D7;
+	padding: 10px;
+}
+.navbar a:hover {
+	background-color: #d7d7d7;
+	color: #794D39;
+	padding: 10px;
+	border-radius: 15px;
+}
+.navbar a:active {
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+}
+
+.navbar {
+	width: 1346px;
+	height: 100px;
+	margin: auto;
+	padding-top: 50px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border-top: 3px solid #D7D7D7;
+	border-bottom: 3px solid #D7D7D7;
+}
+
+.navbar ul {
+	width: 800px;
+	margin: auto;
+}
+
+.navbar li {
+	display: block;
+	float: left;
+	list-style-type: none;
+	margin-right: 60px;
+	font-size: 28pt;
+	font-family: apparat-light,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: black;
+}
+
+#container {
+    width: 85%;
+    height: auto;
+    margin: auto;
+	background-color: #D7D7D7;
+    border-top-left-radius: 15px;
+}
+
+#container .page_nav {
+    width: 15%;
+    float: left;
+    height: auto;
+    padding: 0 5px 30px 15px;
+	border: 2px solid #794D39;
+    border-radius: 15px;
+    font-size: 14pt;
+}
+
+.page_nav {
+	list-style-type: square;
+	list-style-image: url("images/arrow_small.png");
+	font-family: apparat, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.page_nav li {
+	padding: 20px 0 0 0;
+}
+
+.page_nav a:link {
+	text-decoration: none;
+	color: black;
+}
+.page_nav a:visited {
+	text-decoration: none;
+	color: black;
+}
+.page_nav a:hover {
+	text-decoration: none;
+	color: #794D39;
+}
+.page_nav a:active {
+	text-decoration: none;
+	color: black;
+}
+
+#container main {
+	padding: 5px;
+	float: left;
+	width: 80%;
+}
+
+#roadtrip_container article {
+	padding-top: 10px;
+	padding-bottom: 70px;
+	border-bottom: 2px solid #794D39;
+}
+
+#roadtrip_container main {
+	background-color: #D7D7D7;
+	width: 85%;
+	margin: auto;
+}
+
+#roadtrip_container .paragraph {
+	width: 90%;
+	margin: auto;
+	clear: both;
+	text-decoration: none;
+	padding: 2px 7px 0px 7px;
+}
+
+#roadtrip_container .paragraph:hover {
+	text-decoration: none;
+	color: #D7D7D7;
+	background-color: #794D39;
+	padding: 2px 7px 0px 7px;
+	border-radius: 23px;
+}
+
+#roadtrip_container h1 {
+	padding-left: 40px;
+	font-size: 80pt;
+}
+
+.location_left {
+	float: left;
+	padding-top: 40px;
+}
+
+#roadtrip_container p {
+	font-family: apparat, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 15pt;
+	padding: 0 40px 20px 40px;
+	clear: both;
+}
+
+#container article {
+	padding-bottom: 10px;
+	border-bottom: 2px solid #794D39;
+}
+
+.roadtrip_img_left {
+	float: left;
+	padding: 20px 0 40px 50px;
+}
+
+h1 {
+	text-align: center;
+	font-family: apparat-light,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 50pt;
+}
+
+h2 {
+	font-family: apparat-light,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30pt;
+}
+
+#scroll a:link {
+	color: black;
+	text-decoration: none;
+}
+#scroll a:visited {
+	color: black;
+	text-decoration: none;
+}
+#scroll a:hover {
+	color: #794D39;
+	border-bottom: 2px solid black;
+}
+#scroll a:active {
+	color: black;
+}
+
+article h2 {
+	text-align: center;
+	margin: auto;
+}
+
+#container p {
+	font-family: apparat, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 15pt;
+}
+
+.float_right {
+	float: right;
+	padding: 8px;
+	border: 1px solid #794D39;
+	margin: 3px;
+}
+
+.float_left {
+	float: left;
+	padding: 8px;
+	border: 1px solid #794D39;
+	margin: 8px;
+}
+
+footer {
+    clear: both;
+	font-family: apparat-light,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	padding: 5px 0 10px 40px;
+	border: 2px solid #D7D7D7;
+	background-color: #794D39;
+}
+
+footer a {
+	color: white;
+}
+
+#roadtrip_container footer {
+	clear: both;
+	width: 82%;
+	margin: auto;
+}
+
+form {
+	padding: 10px 0 0 25px;
+}
+
+.info {
+	border: 3px solid #794D39;
+	border-radius: 25px;
+	width: 500px;
+	height: auto;
+	padding: 10px 0 10px 20px;
+}

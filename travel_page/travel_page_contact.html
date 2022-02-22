@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link href="travel_page_styles.css" rel="stylesheet" type="text/css">
+<style>
+	
+	header {
+		width: 1350px;
+		height: 500px;
+		margin: auto;
+		background-image: url("images/yosemite_banner_title.png");
+	}
+	
+	h1 {
+		padding: 10px 0 0 230px;
+	}
+	
+	#container {
+		border-radius: 0px;
+		width: 87%;
+		margin: auto;
+	}
+	
+	
+</style>
+</head>
+
+<body>
+	<header></header>
+	<div class="navbar">
+		<nav>
+			<ul>
+				<li><a href="travel_page.html">Home</a></li>
+				<li><a href="roadtrip.html">A Perfect Road Trip</a></li>
+				<li><a href="travel_page_contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div id="container">
+	<main>
+		<form>
+			<h2>Information:</h2>
+			<div class="info">
+				<p><input name="user_name" type="text" id="user_name" placeholder="Your Name" size="35"></p>
+				<p><input name="user_email" type="email" id="user_email" placeholder="Email" size="35"></p>
+				<p><input name="user_phone" type="tel" id="user_phone" placeholder="Phone" size="20"></p>
+			</div>
+			<br>
+		  <h2>How Did You Hear About Us?</h2>
+			<p class="info">
+			  <label>
+			    <input type="checkbox" name="CheckboxGroup1" value="Website" id="CheckboxGroup1_0">
+			    Website</label>
+			  <br>
+			  <label>
+			    <input type="checkbox" name="CheckboxGroup1" value="Magazine" id="CheckboxGroup1_1">
+			    Magazine</label>
+			  <br>
+			  <label>
+			    <input type="checkbox" name="CheckboxGroup1" value="Flyer" id="CheckboxGroup1_2">
+			    Flyer</label>
+			  <br>
+			  <label>
+			    <input type="checkbox" name="CheckboxGroup1" value="Social Media" id="CheckboxGroup1_3">
+			    Social Media</label>
+			  <br>
+			  <label>
+			    <input type="checkbox" name="CheckboxGroup1" value="Representative" id="CheckboxGroup1_4">
+			    Representative</label>
+			  <br>
+		 	</p>
+			<br>
+			<h2>Choose a Date That Works for You:</h2>
+			<input name="date" type="date" id="date">
+			<br><br><br>
+		  <p><input name="submit_btn" type="submit" id="submit_btn" value="Book Your Dream Trip!"></p>
+		</form>
+		<br><br><br>
+	</main>
+	<footer>
+		<h2>Contact</h2>
+		<p>Email: <a href="mailto:californiatravel@gmail.com">californiatravel@gmail.com</a></p>
+		<p>Phone: <a href="tel:1234567890">123-456-7890</a></p>
+		<p>Address: 12345 Oak St, San Diego, CA</p>
+	</footer>
+	</div>
+</body>
+</html>
